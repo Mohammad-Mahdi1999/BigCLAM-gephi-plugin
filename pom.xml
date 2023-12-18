@@ -33,11 +33,11 @@
     <!-- Repositories -->
     <repositories>
         <repository>
-            <id>netbeans</id>
-            <name>NetBeans</name>
-            <url>http://bits.netbeans.org/nexus/content/groups/netbeans/</url>
+            <id>oss-sonatype</id>
+            <name>oss-sonatype</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
             <snapshots>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
             </snapshots>
         </repository>
     </repositories>
@@ -71,42 +71,7 @@
             <classifier>linux-x64</classifier>
             <type>tar.gz</type>
         </dependency>
-        <dependency>
-            <groupId>org.gephi</groupId>
-            <artifactId>statistics-api</artifactId>
-            <version>0.10.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.gephi</groupId>
-            <artifactId>utils-longtask</artifactId>
-            <version>0.10.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.netbeans.api</groupId>
-            <artifactId>org-openide-util-lookup</artifactId>
-            <version>RELEASE160</version>
-        </dependency>
-        <dependency>
-            <groupId>org.gephi</groupId>
-            <artifactId>graph-api</artifactId>
-            <version>0.10.0</version>
 
-        </dependency>
-        <dependency>
-            <groupId>org.gephi</groupId>
-            <artifactId>gephi-toolkit</artifactId>
-            <version>0.10.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.gephi</groupId>
-            <artifactId>layout-api</artifactId>
-            <version>0.10.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.gephi</groupId>
-            <artifactId>desktop-import</artifactId>
-            <version>0.10.0</version>
-        </dependency>
     </dependencies>
     
     <build>

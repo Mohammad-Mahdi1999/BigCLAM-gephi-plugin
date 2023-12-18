@@ -20,14 +20,14 @@ public class BigCLAMUI implements StatisticsUI {
     public void setup(Statistics ststcs) {
         this.myCliqueDetector = (BigCLAMPlugin) ststcs;
         if (panel != null) {
-            panel.setK(myCliqueDetector.getK());
+//            panel.setK(myCliqueDetector.getK());
         }
     }
 
     @Override
     public void unsetup() {
         if (panel != null) {
-            myCliqueDetector.setK(panel.getK());
+//            myCliqueDetector.setK(panel.getK());
         }
         panel = null;
     }
