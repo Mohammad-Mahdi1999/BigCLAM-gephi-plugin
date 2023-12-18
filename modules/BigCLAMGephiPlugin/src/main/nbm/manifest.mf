@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Name: BigCLAM Gephi Plugin
+OpenIDE-Module-Short-Description: This plugin 
+OpenIDE-Module-Long-Description: hold
+OpenIDE-Module-Display-Category: Tool
